@@ -1,12 +1,18 @@
 main(){
-  var a = 5;
+  var a;
+  print(a);
+  a = "This is a";
   print(a);
   
-  dynamic b = 5.6;
+  dynamic b;
+  print(b);
+  b = 5.6;
   print(b);
   b = false;
   print(b);
   
-  bool c = true;
+  bool c;
+  print(c);
+  c = true;
   print(c);
 }
